@@ -44,10 +44,12 @@ public class Transaksi {
     public String getTglKembali() {
         return tglKembali;
     }
+
     
-    // Method khusus saat pengembalian
+    // Method khusus saat pengembalian buku
     public void setPengembalian(String tglKembali) {
         this.tglKembali = tglKembali;
         this.status = "SELESAI";
     }
+
 }
