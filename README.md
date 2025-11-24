@@ -11,24 +11,32 @@
 
 
 **🗒 DESKRIPSI SISTEM**
+
 Sistem ini menerapkan konsep Pemrograman Berbasis Objek (PBO) secara menyeluruh, termasuk Encapsulation, Inheritance, Polymorphism, Abstraction, Collection, dan Exception Handling.
 
 **⚙️ Fungsionalitas Utama:**
+
 Admin		: Dapat mengelola data BUKU (Tambah, Edit, Hapus), Lihat Daftar Anggota, dan Lihat semua Riwayat Transaksi.
 Anggota (User)	: Dapat melihat daftar buku, melakukan peminjaman dan pengembalian buku, dan juga Riwayat peminjaman pribadi.
 
 **📚 Konsep OOP yang Diterapkan:**
+
 ⦁	Inheritance & Abstraction: Kelas Admin dan Anggota mewarisi dari kelas abstrak Pengguna.
 ⦁	Polymorphism: Method tampilkanMenu() di-override oleh Admin dan Anggota untuk menampilkan menu yang berbeda sesuai hak akses.
 ⦁	Collection: Menggunakan HashMap untuk menyimpan data login dan ArrayList untuk menyimpan daftar Buku dan Transaksi.
 ⦁	Exception Handling: Digunakan try-catch pada input CLI untuk mencegah crash program akibat InputMismatchException.
 
 **Akun Demo :**
+
 💼Admin
+
 Username : admin
+
 Password : admin123
 
 👤anggota
+
 Username : budi
+
 Password : 123
 
