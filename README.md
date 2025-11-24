@@ -28,13 +28,13 @@ Sistem ini menerapkan konsep Pemrograman Berbasis Objek (PBO) secara menyeluruh,
 
 **Akun Demo:**
 
-Admin
+1. Admin
 
 Username : admin
 
 Password : admin123
 
-anggota
+2. Anggota
 
 Username : budi
 
