@@ -36,3 +36,5 @@ public abstract class Pengguna {
         return password;
     }
 
+    // Encapsulation: Setter
+
